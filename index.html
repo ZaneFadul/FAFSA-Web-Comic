@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>The FAFSA</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" type="text/javascript"> </script>
+  </head>
+
+  <body onload="loadImages()">
+
+    <audio id="theruins" loop>
+      <source src="audio/theruins.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="thegirl" loop>
+      <source src="audio/thegirl.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="theweb" loop>
+      <source src="audio/theweb.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="thefallout" loop>
+      <source src="audio/thefallout.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="cracked">
+      <source src="audio/cracked.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="transmition">
+      <source src="audio/transmition.mp3" type="audio/mpeg">
+    </audio>
+
+    <div id="loadImages">
+  </div>
+
+  <div id="textBox">
+      <p id="textBoxText">The <span class="importantText">FAFSA.</span></p>
+    </div>
+      <button id="promptButtonLeft" onclick="backScene(), backText()"><</button>
+      <button id="promptButtonRight" onclick="changeScene(), changeText()">></button>
+
+  </body>
+</html>
+
+<!--Objectives for later:
+- Figure out how to get fonts on other computers
+- Figure out text boxes and sequences and stuff
+- Style text boxes
+- change the way images slide-->
